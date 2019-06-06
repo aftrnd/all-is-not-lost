@@ -1,7 +1,7 @@
 //Keyboard Input
-keyboardLeft = keyboard_check(vk_left);
-keyboardRight = keyboard_check(vk_right);
-keyboardUp = keyboard_check_pressed(vk_up);
+keyboardLeft = keyboard_check(vk_left) || keyboard_check(ord("A"));
+keyboardRight = keyboard_check(vk_right) || keyboard_check(ord("D"));
+keyboardUp = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"));
 
 //Calculate Movement
 var move = keyboardRight - keyboardLeft;
