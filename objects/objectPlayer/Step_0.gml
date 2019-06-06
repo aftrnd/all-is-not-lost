@@ -57,3 +57,25 @@ if (place_meeting(x, y + verticalSpeed, objectWall))
 
 y = y + verticalSpeed;
 
+//Sprite Animation
+if (!place_meeting(x, y + 1, objectWall))
+{
+	sprite_index = spritePlayerJump;
+	image_speed = 0;
+	if (sign(verticalSpeed) > 0) image_index = 1; else image_index = 0;
+	
+}
+else
+{
+	image_speed = 1;
+	if (horizontalSpeed == 0)
+	{
+		sprite_index = spritePlayer;
+	}
+	else
+	{
+			sprite_index = spritePlayerRunning;
+	}
+}
+
+if (horizontalSpeed != 0) image_xscale = sign(horizontalSpeed);
