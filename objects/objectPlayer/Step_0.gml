@@ -12,7 +12,7 @@ verticalSpeed = verticalSpeed + gravityAmmount;
 //Double Jump
 if(keyboardUp) && (jumpCurrent > 0)
 {
-    verticalSpeed = -6;
+    verticalSpeed = -3.5;
     jumpCurrent--;
 }
 
