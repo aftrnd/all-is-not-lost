@@ -9,7 +9,7 @@
     "option_mac_app_category": "Games",
     "option_mac_app_id": "com.company.game",
     "option_mac_build_app_store": false,
-    "option_mac_copyright": "(c) 2018 CompanyName",
+    "option_mac_copyright": "(c) 2019 Nick Jackson",
     "option_mac_display_cursor": true,
     "option_mac_display_name": "Super Awesome Amazing Game",
     "option_mac_enable_retina": true,
@@ -26,9 +26,9 @@
     "option_mac_team_id": "",
     "option_mac_texture_page": "2048x2048",
     "option_mac_version": {
-        "build": 1,
+        "build": 6,
         "major": 0,
-        "minor": 0,
+        "minor": 1,
         "revision": 0
     },
     "option_mac_vsync": true

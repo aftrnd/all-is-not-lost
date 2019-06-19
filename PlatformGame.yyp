@@ -229,6 +229,25 @@
             }
         },
         {
+            "Key": "487b0941-2685-41f6-af2f-b215a7b1dbe6",
+            "Value": {
+                "id": "6782f1d4-f3fa-4daa-b292-e5334d9603b3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "fonts\/fontMenu\/fontMenu.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "4a65f30e-423a-402f-ae37-f55fa2582cab",
             "Value": {
                 "id": "1b190ca5-6560-4d8c-9a03-e1ec45b1278e",
@@ -340,6 +359,25 @@
                 ],
                 "resourcePath": "sounds\/soundMainTheme\/soundMainTheme.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "6b98d458-4197-425c-b305-0b1422df1a2d",
+            "Value": {
+                "id": "1ff1ba91-2df8-489b-8419-f9221ed8e223",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/roomMenu\/roomMenu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -663,6 +701,25 @@
                 ],
                 "resourcePath": "sprites\/spriteWall\/spriteWall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d4040072-9919-439f-b80e-d5887f253e26",
+            "Value": {
+                "id": "b1c12f03-acd3-4291-b02c-8249f3931b26",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objectMenu\/objectMenu.yy",
+                "resourceType": "GMObject"
             }
         },
         {
