@@ -11,7 +11,7 @@
     "option_mac_build_app_store": false,
     "option_mac_copyright": "(c) 2019 Nick Jackson",
     "option_mac_display_cursor": true,
-    "option_mac_display_name": "Super Awesome Amazing Game",
+    "option_mac_display_name": "All Is Not Lost",
     "option_mac_enable_retina": true,
     "option_mac_enable_steam": false,
     "option_mac_icon_png": "${base_options_dir}\/mac\/icons\/1024.png",
@@ -26,7 +26,7 @@
     "option_mac_team_id": "",
     "option_mac_texture_page": "2048x2048",
     "option_mac_version": {
-        "build": 6,
+        "build": 8,
         "major": 0,
         "minor": 1,
         "revision": 0

@@ -324,6 +324,25 @@
             }
         },
         {
+            "Key": "5b1479fd-5082-4f45-9fe7-7b2a3803329d",
+            "Value": {
+                "id": "461c85d7-bed3-4ff7-b281-96a36b8330a6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objectMenuMusic\/objectMenuMusic.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5c107fa3-65b6-4f41-845b-bcc54de5ccdd",
             "Value": {
                 "id": "97c82e28-02eb-4ccc-bd27-29da36c84e12",
@@ -533,6 +552,25 @@
             }
         },
         {
+            "Key": "a8bb4616-9f6b-4291-9772-97807a7aeb21",
+            "Value": {
+                "id": "e7a69f76-b713-4b4f-860a-d13db254efe6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/soundMenuClick\/soundMenuClick.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "28e8a828-ef29-4601-a7b8-35639635eb41",
@@ -586,6 +624,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/spriteEnemyRunning\/spriteEnemyRunning.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "adc21969-a30f-4992-99cf-c94fa12efa4c",
+            "Value": {
+                "id": "5e1f9f2c-b64b-46e6-8a9b-2bb25aa03e60",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spriteMenuLogo\/spriteMenuLogo.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -742,6 +799,25 @@
             }
         },
         {
+            "Key": "e05a5fd8-7788-43ed-96de-a6bb43f7be25",
+            "Value": {
+                "id": "0c385311-17ad-4e1c-86f8-938deb23ee99",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/soundJump\/soundJump.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e4905a93-96a8-4d54-ae26-97ec77207eca",
             "Value": {
                 "id": "267b1ebc-a7fb-46bf-ab05-03f3ecc0a9a7",
@@ -777,6 +853,25 @@
                 ],
                 "resourcePath": "views\/e8f052af-9450-4e77-b86c-f7c09ce82ce2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ea4e9cbd-3993-4932-93c8-c14f89f217b0",
+            "Value": {
+                "id": "ef46c1c8-bc90-4344-b281-37c6979a02cf",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/soundMenuMusic\/soundMenuMusic.yy",
+                "resourceType": "GMSound"
             }
         },
         {

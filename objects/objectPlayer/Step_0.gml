@@ -14,6 +14,7 @@ if(keyboardUp) && (jumpCurrent > 0)
 {
     verticalSpeed = -3.5;
     jumpCurrent--;
+	audio_play_sound(soundJump, 999, false);
 }
 
 if(place_meeting(x, y + verticalSpeed, objectWall))
