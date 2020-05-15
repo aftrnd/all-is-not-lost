@@ -1,4 +1,24 @@
+horizontalSpeed = walkSpeed;
 verticalSpeed = verticalSpeed + gravityAmmount;
+
+//Double Jump
+//if(keyboardUp)
+//{
+//    verticalSpeed = -3.5;
+//	  audio_play_sound(soundJump, 999, false);
+//}
+
+if(place_meeting(x, y + verticalSpeed, objectWall))
+{
+    while(!place_meeting(x, y + sign(verticalSpeed), objectWall))
+    {
+        y += sign(verticalSpeed);
+    }
+	
+    verticalSpeed = 0;
+}
+
+y += verticalSpeed;
 
 //Horizontal Collision
 if (place_meeting(x + horizontalSpeed, y, objectWall))
@@ -7,7 +27,8 @@ if (place_meeting(x + horizontalSpeed, y, objectWall))
 	{
 		x = x + sign(horizontalSpeed);
 	}
-	horizontalSpeed = -horizontalSpeed;
+	verticalSpeed = jumpHeight;
+	horizontalSpeed = 0;
 }
 
 x = x + horizontalSpeed;
@@ -19,7 +40,14 @@ if (place_meeting(x, y + verticalSpeed, objectWall))
 	{
 		y = y + sign(verticalSpeed);
 	}
+	collisionCount = collisionCount + 1;
 	verticalSpeed = 0;
+}
+
+if (collisionCount == 16)
+{
+	walkSpeed = -walkSpeed;
+	collisionCount = 0;
 }
 
 y = y + verticalSpeed;
